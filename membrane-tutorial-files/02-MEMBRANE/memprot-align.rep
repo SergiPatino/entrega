@@ -1,0 +1,292 @@
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 12 CPUs.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 HT 
+Info) Free system memory: 12GB (79%)
+Info) No CUDA accelerator devices available.
+Info) Dynamically loaded 3 plugins in directory:
+Info) /opt/vmd/lib/plugins/LINUXAMD64/molfile
+/opt/vmd/lib/scripts/tcl8.5 /opt/vmd/lib/scripts /opt/vmd/lib /Projects/johns/tcl/8.5.6/lib_LINUXAMD64/lib /opt/vmd/lib//scripts/vmd /opt/vmd/lib/plugins/LINUXAMD64/tcl /opt/vmd/lib/plugins/noarch/tcl /opt/vmd_density_profile/
+1.2
+psfgen) clearing structure, topology, and aliases
+psfgen) reading topology file /opt/vmd/lib/plugins/noarch/tcl/readcharmmtop1.2/top_all36_lipid.rtf
+
+psfgen)   \\\\\\\ CHARMM36 All-Hydrogen Lipid Topology File ///////
+psfgen)   All comments and questions should be submitted to the 
+psfgen)   parameter forum at the CHARMM website: www.charmm.org
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) reading topology file /opt/vmd/lib/plugins/noarch/tcl/readcharmmtop1.2/toppar_water_ions_namd.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen) skipping parameters in stream file
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file /opt/vmd/lib/plugins/noarch/tcl/membrane1.2/popc36_box.psf
+psfgen) psf file does not contain cross-terms
+Info) Using plugin psf for structure file /opt/vmd/lib/plugins/noarch/tcl/membrane1.2/popc36_box.psf
+psfplugin) no cross-terms defined in PSF file.
+Info) Analyzing structure ...
+Info)    Atoms: 11013
+Info)    Bonds: 10953
+Info)    Angles: 16351  Dihedrals: 21360  Impropers: 120  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 1051
+Info)    Waters: 991
+Info)    Segments: 7
+Info)    Fragments: 1051   Protein: 0   Nucleic: 0
+Info) Using plugin pdb for coordinates from file /opt/vmd/lib/plugins/noarch/tcl/membrane1.2/popc36_box.pdb
+Info) Finished with coordinate file /opt/vmd/lib/plugins/noarch/tcl/membrane1.2/popc36_box.pdb.
+replicating POPC patch 2 by 2...
+psfgen) building segment L11
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment L21
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment W1
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W2
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W3
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W4
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W5
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment L12
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment L22
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment W6
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W7
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W8
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W9
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W10
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment L13
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment L23
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment W11
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W12
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W13
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W14
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W15
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment L14
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment L24
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) building segment W16
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W17
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W18
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W19
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) building segment W20
+psfgen) disabling angle autogeneration
+psfgen) disabling dihedral autogeneration
+Info: generating structure...
+segment complete.
+psfgen) Info: writing psf file temp.psf
+psfgen) total of 44052 atoms
+psfgen) total of 39848 bonds
+psfgen) total of 65404 angles
+psfgen) total of 85440 dihedrals
+psfgen) total of 480 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file temp.pdb
+psfgen) Info: pdb file complete.
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file temp.psf
+psfgen) duplicate topology file /opt/vmd/lib/plugins/noarch/tcl/readcharmmtop1.2/top_all36_lipid.rtf
+psfgen) duplicate topology file /opt/vmd/lib/plugins/noarch/tcl/readcharmmtop1.2/toppar_water_ions_namd.str
+psfgen) duplicate topology file ../../readcharmmtop/top_all36_lipid.rtf
+psfgen) psf file does not contain cross-terms
+psfgen) reading coordinates from pdb file temp.pdb
+Info) Using plugin psf for structure file temp.psf
+psfplugin) no cross-terms defined in PSF file.
+Info) Analyzing structure ...
+Info)    Atoms: 44052
+Info)    Bonds: 39848
+Info)    Angles: 65404  Dihedrals: 85440  Impropers: 480  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 4204
+Info)    Waters: 3964
+Info)    Segments: 28
+Info)    Fragments: 4204   Protein: 0   Nucleic: 0
+Info) Using plugin pdb for coordinates from file temp.pdb
+Info) Finished with coordinate file temp.pdb.
+psfgen) Info: writing psf file popc.psf
+psfgen) total of 30221 atoms
+psfgen) total of 27265 bonds
+psfgen) total of 44521 angles
+psfgen) total of 58028 dihedrals
+psfgen) total of 326 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file popc.pdb
+psfgen) Info: pdb file complete.
+deleting temporary files
+Info) Using plugin psf for structure file popc.psf
+psfplugin) no cross-terms defined in PSF file.
+Info) Analyzing structure ...
+Info)    Atoms: 30221
+Info)    Bonds: 27265
+Info)    Angles: 44521  Dihedrals: 58028  Impropers: 326  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 2956
+Info)    Waters: 2793
+Info)    Segments: 22
+Info)    Fragments: 2956   Protein: 0   Nucleic: 0
+Info) Using plugin pdb for coordinates from file popc.pdb
+Info) Finished with coordinate file popc.pdb.
+atomselect28
+psfplugin) Detected a Charmm PSF file
+Info) Using plugin psf for structure file ../01-BUILD/6xdc_autopsf.psf
+Info) Analyzing structure ...
+Info)    Atoms: 6284
+Info)    Bonds: 6378
+Info)    Angles: 11472  Dihedrals: 16894  Impropers: 978  Cross-terms: 378
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 386
+Info)    Waters: 0
+Info)    Segments: 4
+Info)    Fragments: 4   Protein: 4   Nucleic: 0
+Info) Using plugin pdb for coordinates from file ../01-BUILD/6xdc_autopsf.pdb
+Info) Finished with coordinate file ../01-BUILD/6xdc_autopsf.pdb.
+3
+atomselect29
+Info) Opened coordinate file popc_TEMP.pdb for writing.
+Info) Finished with coordinate file popc_TEMP.pdb.
+atomselect30
+Info) Opened coordinate file kcsa_TEMP.pdb for writing.
+Info) Finished with coordinate file kcsa_TEMP.pdb.
+2.0
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file popc.psf
+psfgen) psf file does not contain cross-terms
+psfgen) reading coordinates from pdb file popc_TEMP.pdb
+psfgen) reading structure from psf file ../01-BUILD/6xdc_autopsf.psf
+psfgen) reading coordinates from pdb file kcsa_TEMP.pdb
+psfgen) Info: writing psf file kcsa_popc_raw.psf
+psfgen) total of 36505 atoms
+psfgen) total of 33643 bonds
+psfgen) total of 55993 angles
+psfgen) total of 74922 dihedrals
+psfgen) total of 1304 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 378 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file kcsa_popc_raw.pdb
+psfgen) Info: pdb file complete.
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.
+vmd > 

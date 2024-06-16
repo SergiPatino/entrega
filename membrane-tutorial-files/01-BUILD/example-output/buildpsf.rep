@@ -1,0 +1,1163 @@
+Info) VMD for MACOSXX86, version 1.8.6 (April 6, 2007)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 2 CPUs detected.
+1.4.5
+reading topology file ../top_all27_prot_lipid.rtf
+
+> CHARMM22 All-Hydrogen Topology File for Proteins and Lipids <<
+>>>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<
+>>>>>>>>>>>>>>>>>>>>>>   July 2004    <<<<<<<<<<<<<<<<<<<<<<<<<<
+ All comments to ADM jr. via the CHARMM web site: www.charmm.org
+               parameter set discussion forum
+
+Created by CHARMM version 31 1
+cross-term entries present in topology definitions
+aliasing residue HIS to HSE
+aliasing residue ILE atom CD1 to CD
+aliasing residue HOH atom O to OH2
+aliasing residue HOH to TIP3
+building segment A
+reading residues from pdb file segA.pdb
+extracted 103 residues from pdb file
+Info: generating structure...
+Info: skipping improper N-C-CA-HN at beginning of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+Info: skipping conformation C-N-CA-C at beginning of segment.
+Info: skipping conformation C-CA-N-HN at beginning of segment.
+Info: skipping bond C-N at end of segment.
+Info: skipping improper C-CA-N-O at end of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+Info: skipping conformation CA-C-N-CA at end of segment.
+Info: skipping conformation N-CA-C-O at end of segment.
+Info: skipping conformation N-CA-C-N at end of segment.
+Info: segment complete.
+reading coordinates from pdb file segA.pdb for segment A
+Warning: failed to set coordinate for atom O	 HIS:124	  A
+Warning: failed to set coordinate for atom OXT	 HIS:124	  A
+applying patch GLUP to 1 residues
+regenerating all angles
+regenerating all dihedrals
+building segment WCA
+disabling angle autogeneration
+disabling dihedral autogeneration
+reading residues from pdb file crystwatA.pdb
+extracted 118 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file crystwatA.pdb for segment WCA
+building segment B
+reading residues from pdb file segB.pdb
+extracted 103 residues from pdb file
+Info: generating structure...
+Info: skipping improper N-C-CA-HN at beginning of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+Info: skipping conformation C-N-CA-C at beginning of segment.
+Info: skipping conformation C-CA-N-HN at beginning of segment.
+Info: skipping bond C-N at end of segment.
+Info: skipping improper C-CA-N-O at end of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+Info: skipping conformation CA-C-N-CA at end of segment.
+Info: skipping conformation N-CA-C-O at end of segment.
+Info: skipping conformation N-CA-C-N at end of segment.
+Info: segment complete.
+reading coordinates from pdb file segB.pdb for segment B
+Warning: failed to set coordinate for atom O	 HIS:124	  B
+Warning: failed to set coordinate for atom OXT	 HIS:124	  B
+applying patch GLUP to 1 residues
+regenerating all angles
+regenerating all dihedrals
+building segment WCB
+disabling angle autogeneration
+disabling dihedral autogeneration
+reading residues from pdb file crystwatB.pdb
+extracted 118 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file crystwatB.pdb for segment WCB
+building segment C
+reading residues from pdb file segC.pdb
+extracted 103 residues from pdb file
+Info: generating structure...
+Info: skipping improper N-C-CA-HN at beginning of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+Info: skipping conformation C-N-CA-C at beginning of segment.
+Info: skipping conformation C-CA-N-HN at beginning of segment.
+Info: skipping bond C-N at end of segment.
+Info: skipping improper C-CA-N-O at end of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+Info: skipping conformation CA-C-N-CA at end of segment.
+Info: skipping conformation N-CA-C-O at end of segment.
+Info: skipping conformation N-CA-C-N at end of segment.
+Info: segment complete.
+reading coordinates from pdb file segC.pdb for segment C
+Warning: failed to set coordinate for atom O	 HIS:124	  C
+Warning: failed to set coordinate for atom OXT	 HIS:124	  C
+applying patch GLUP to 1 residues
+regenerating all angles
+regenerating all dihedrals
+building segment WCC
+disabling angle autogeneration
+disabling dihedral autogeneration
+reading residues from pdb file crystwatC.pdb
+extracted 118 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file crystwatC.pdb for segment WCC
+building segment D
+reading residues from pdb file segD.pdb
+extracted 103 residues from pdb file
+Info: generating structure...
+Info: skipping improper N-C-CA-HN at beginning of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at beginning of segment.
+Info: skipping conformation C-N-CA-C at beginning of segment.
+Info: skipping conformation C-CA-N-HN at beginning of segment.
+Info: skipping bond C-N at end of segment.
+Info: skipping improper C-CA-N-O at end of segment.
+Info: skipping cross-term C-N-CA-C-N-CA-C-N at end of segment.
+Info: skipping conformation CA-C-N-CA at end of segment.
+Info: skipping conformation N-CA-C-O at end of segment.
+Info: skipping conformation N-CA-C-N at end of segment.
+Info: segment complete.
+reading coordinates from pdb file segD.pdb for segment D
+Warning: failed to set coordinate for atom O	 HIS:124	  D
+Warning: failed to set coordinate for atom OXT	 HIS:124	  D
+applying patch GLUP to 1 residues
+regenerating all angles
+regenerating all dihedrals
+building segment WCD
+disabling angle autogeneration
+disabling dihedral autogeneration
+reading residues from pdb file crystwatD.pdb
+extracted 118 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file crystwatD.pdb for segment WCD
+building segment I
+reading residues from pdb file pot.pdb
+extracted 4 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file pot.pdb for segment I
+building segment WF
+disabling angle autogeneration
+disabling dihedral autogeneration
+reading residues from pdb file filtwat.pdb
+extracted 3 residues from pdb file
+Info: generating structure...
+Info: segment complete.
+reading coordinates from pdb file filtwat.pdb for segment WF
+Info: guessing coordinates for 4182 atoms (56 non-hydrogen)
+Warning: poorly guessed coordinates for 982 atoms (8 non-hydrogen):
+Warning: poorly guessed coordinate for atom HT1	 SER:22	  A
+Warning: poorly guessed coordinate for atom HT2	 SER:22	  A
+Warning: poorly guessed coordinate for atom HT3	 SER:22	  A
+Warning: poorly guessed coordinate for atom HG2	 PRO:55	  A
+Warning: poorly guessed coordinate for atom HG2	 PRO:63	  A
+Warning: poorly guessed coordinate for atom HE2	 GLU:71	  A
+Warning: poorly guessed coordinate for atom OT1	 HSE:124	  A
+Warning: poorly guessed coordinate for atom OT2	 HSE:124	  A
+Warning: poorly guessed coordinate for atom H1	 TIP3:1	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:1	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:2	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:2	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:3	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:3	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:4	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:4	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:5	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:5	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:6	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:6	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:8	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:8	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:9	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:9	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:11	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:11	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:13	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:13	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:14	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:14	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:17	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:17	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:18	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:18	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:19	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:19	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:20	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:20	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:23	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:23	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:24	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:24	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:34	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:34	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:36	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:36	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:37	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:37	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:39	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:39	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:43	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:43	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:44	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:44	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:50	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:50	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:51	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:51	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:52	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:52	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:53	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:53	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:54	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:54	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:55	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:55	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:59	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:59	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:63	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:63	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:68	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:68	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:69	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:69	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:70	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:70	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:75	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:75	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:76	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:76	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:77	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:77	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:81	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:81	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:84	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:84	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:93	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:93	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:96	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:96	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:97	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:97	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:99	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:99	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:103	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:103	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:106	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:106	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:107	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:107	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:108	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:108	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:113	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:113	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:125	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:125	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:129	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:129	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:130	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:130	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:144	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:144	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:145	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:145	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:148	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:148	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:161	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:161	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:163	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:163	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:164	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:164	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:165	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:165	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:169	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:169	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:185	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:185	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:187	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:187	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:188	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:188	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:192	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:192	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:194	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:194	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:205	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:205	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:206	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:206	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:223	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:223	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:227	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:227	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:228	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:228	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:233	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:233	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:239	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:239	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:251	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:251	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:253	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:253	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:258	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:258	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:260	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:260	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:267	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:267	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:271	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:271	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:274	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:274	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:287	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:287	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:290	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:290	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:297	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:297	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:301	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:301	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:309	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:309	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:316	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:316	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:318	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:318	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:329	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:329	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:330	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:330	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:332	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:332	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:341	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:341	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:346	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:346	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:351	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:351	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:365	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:365	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:386	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:386	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:393	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:393	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:397	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:397	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:400	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:400	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:408	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:408	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:412	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:412	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:413	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:413	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:418	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:418	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:423	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:423	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:425	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:425	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:428	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:428	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:443	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:443	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:446	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:446	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:452	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:452	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:465	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:465	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:466	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:466	  WCA
+Warning: poorly guessed coordinate for atom H1	 TIP3:469	  WCA
+Warning: poorly guessed coordinate for atom H2	 TIP3:469	  WCA
+Warning: poorly guessed coordinate for atom HT1	 SER:22	  B
+Warning: poorly guessed coordinate for atom HT2	 SER:22	  B
+Warning: poorly guessed coordinate for atom HT3	 SER:22	  B
+Warning: poorly guessed coordinate for atom HG2	 PRO:55	  B
+Warning: poorly guessed coordinate for atom HG2	 PRO:63	  B
+Warning: poorly guessed coordinate for atom HE2	 GLU:71	  B
+Warning: poorly guessed coordinate for atom OT1	 HSE:124	  B
+Warning: poorly guessed coordinate for atom OT2	 HSE:124	  B
+Warning: poorly guessed coordinate for atom H1	 TIP3:1	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:1	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:2	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:2	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:3	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:3	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:4	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:4	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:5	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:5	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:6	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:6	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:8	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:8	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:9	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:9	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:11	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:11	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:13	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:13	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:14	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:14	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:17	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:17	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:18	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:18	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:19	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:19	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:20	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:20	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:23	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:23	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:24	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:24	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:34	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:34	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:36	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:36	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:37	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:37	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:39	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:39	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:43	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:43	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:44	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:44	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:50	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:50	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:51	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:51	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:52	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:52	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:53	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:53	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:54	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:54	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:55	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:55	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:59	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:59	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:63	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:63	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:68	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:68	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:69	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:69	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:70	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:70	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:75	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:75	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:76	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:76	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:77	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:77	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:81	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:81	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:84	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:84	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:93	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:93	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:96	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:96	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:97	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:97	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:99	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:99	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:103	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:103	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:106	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:106	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:107	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:107	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:108	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:108	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:113	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:113	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:125	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:125	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:129	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:129	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:130	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:130	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:144	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:144	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:145	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:145	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:148	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:148	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:161	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:161	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:163	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:163	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:164	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:164	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:165	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:165	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:169	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:169	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:185	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:185	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:187	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:187	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:188	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:188	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:192	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:192	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:194	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:194	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:205	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:205	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:206	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:206	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:223	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:223	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:227	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:227	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:228	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:228	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:233	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:233	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:239	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:239	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:251	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:251	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:253	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:253	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:258	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:258	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:260	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:260	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:267	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:267	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:271	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:271	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:274	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:274	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:287	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:287	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:290	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:290	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:297	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:297	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:301	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:301	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:309	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:309	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:316	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:316	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:318	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:318	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:329	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:329	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:330	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:330	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:332	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:332	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:341	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:341	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:346	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:346	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:351	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:351	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:365	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:365	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:386	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:386	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:393	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:393	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:397	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:397	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:400	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:400	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:408	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:408	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:412	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:412	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:413	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:413	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:418	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:418	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:423	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:423	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:425	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:425	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:428	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:428	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:443	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:443	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:446	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:446	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:452	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:452	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:465	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:465	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:466	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:466	  WCB
+Warning: poorly guessed coordinate for atom H1	 TIP3:469	  WCB
+Warning: poorly guessed coordinate for atom H2	 TIP3:469	  WCB
+Warning: poorly guessed coordinate for atom HT1	 SER:22	  C
+Warning: poorly guessed coordinate for atom HT2	 SER:22	  C
+Warning: poorly guessed coordinate for atom HT3	 SER:22	  C
+Warning: poorly guessed coordinate for atom HG2	 PRO:55	  C
+Warning: poorly guessed coordinate for atom HG2	 PRO:63	  C
+Warning: poorly guessed coordinate for atom HE2	 GLU:71	  C
+Warning: poorly guessed coordinate for atom OT1	 HSE:124	  C
+Warning: poorly guessed coordinate for atom OT2	 HSE:124	  C
+Warning: poorly guessed coordinate for atom H1	 TIP3:1	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:1	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:2	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:2	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:3	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:3	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:4	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:4	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:5	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:5	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:6	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:6	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:8	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:8	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:9	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:9	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:11	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:11	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:13	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:13	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:14	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:14	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:17	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:17	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:18	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:18	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:19	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:19	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:20	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:20	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:23	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:23	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:24	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:24	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:34	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:34	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:36	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:36	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:37	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:37	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:39	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:39	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:43	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:43	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:44	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:44	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:50	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:50	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:51	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:51	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:52	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:52	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:53	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:53	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:54	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:54	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:55	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:55	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:59	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:59	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:63	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:63	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:68	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:68	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:69	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:69	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:70	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:70	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:75	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:75	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:76	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:76	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:77	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:77	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:81	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:81	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:84	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:84	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:93	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:93	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:96	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:96	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:97	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:97	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:99	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:99	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:103	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:103	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:106	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:106	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:107	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:107	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:108	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:108	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:113	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:113	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:125	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:125	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:129	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:129	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:130	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:130	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:144	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:144	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:145	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:145	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:148	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:148	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:161	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:161	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:163	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:163	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:164	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:164	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:165	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:165	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:169	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:169	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:185	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:185	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:187	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:187	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:188	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:188	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:192	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:192	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:194	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:194	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:205	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:205	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:206	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:206	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:223	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:223	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:227	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:227	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:228	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:228	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:233	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:233	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:239	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:239	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:251	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:251	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:253	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:253	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:258	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:258	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:260	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:260	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:267	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:267	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:271	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:271	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:274	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:274	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:287	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:287	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:290	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:290	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:297	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:297	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:301	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:301	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:309	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:309	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:316	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:316	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:318	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:318	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:329	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:329	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:330	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:330	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:332	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:332	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:341	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:341	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:346	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:346	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:351	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:351	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:365	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:365	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:386	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:386	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:393	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:393	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:397	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:397	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:400	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:400	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:408	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:408	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:412	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:412	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:413	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:413	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:418	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:418	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:423	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:423	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:425	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:425	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:428	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:428	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:443	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:443	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:446	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:446	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:452	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:452	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:465	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:465	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:466	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:466	  WCC
+Warning: poorly guessed coordinate for atom H1	 TIP3:469	  WCC
+Warning: poorly guessed coordinate for atom H2	 TIP3:469	  WCC
+Warning: poorly guessed coordinate for atom HT1	 SER:22	  D
+Warning: poorly guessed coordinate for atom HT2	 SER:22	  D
+Warning: poorly guessed coordinate for atom HT3	 SER:22	  D
+Warning: poorly guessed coordinate for atom HG2	 PRO:55	  D
+Warning: poorly guessed coordinate for atom HG2	 PRO:63	  D
+Warning: poorly guessed coordinate for atom HE2	 GLU:71	  D
+Warning: poorly guessed coordinate for atom OT1	 HSE:124	  D
+Warning: poorly guessed coordinate for atom OT2	 HSE:124	  D
+Warning: poorly guessed coordinate for atom H1	 TIP3:1	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:1	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:2	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:2	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:3	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:3	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:4	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:4	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:5	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:5	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:6	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:6	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:8	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:8	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:9	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:9	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:11	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:11	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:13	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:13	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:14	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:14	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:17	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:17	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:18	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:18	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:19	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:19	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:20	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:20	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:23	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:23	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:24	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:24	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:34	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:34	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:36	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:36	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:37	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:37	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:39	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:39	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:43	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:43	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:44	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:44	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:50	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:50	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:51	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:51	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:52	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:52	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:53	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:53	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:54	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:54	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:55	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:55	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:59	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:59	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:63	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:63	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:68	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:68	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:69	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:69	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:70	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:70	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:75	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:75	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:76	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:76	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:77	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:77	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:81	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:81	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:84	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:84	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:93	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:93	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:96	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:96	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:97	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:97	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:99	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:99	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:103	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:103	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:106	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:106	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:107	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:107	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:108	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:108	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:113	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:113	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:125	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:125	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:129	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:129	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:130	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:130	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:144	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:144	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:145	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:145	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:148	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:148	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:161	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:161	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:163	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:163	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:164	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:164	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:165	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:165	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:169	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:169	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:185	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:185	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:187	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:187	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:188	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:188	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:192	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:192	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:194	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:194	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:205	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:205	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:206	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:206	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:216	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:216	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:223	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:223	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:227	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:227	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:228	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:228	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:233	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:233	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:239	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:239	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:248	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:248	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:251	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:251	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:253	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:253	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:257	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:257	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:258	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:258	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:260	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:260	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:267	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:267	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:271	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:271	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:274	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:274	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:287	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:287	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:290	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:290	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:292	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:292	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:297	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:297	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:301	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:301	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:304	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:304	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:309	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:309	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:316	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:316	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:318	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:318	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:328	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:328	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:329	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:329	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:330	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:330	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:332	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:332	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:339	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:339	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:341	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:341	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:346	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:346	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:351	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:351	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:359	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:359	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:365	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:365	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:386	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:386	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:393	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:393	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:397	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:397	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:400	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:400	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:408	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:408	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:409	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:409	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:412	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:412	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:413	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:413	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:418	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:418	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:423	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:423	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:425	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:425	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:428	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:428	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:443	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:443	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:446	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:446	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:452	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:452	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:465	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:465	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:466	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:466	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:469	  WCD
+Warning: poorly guessed coordinate for atom H2	 TIP3:469	  WCD
+Warning: poorly guessed coordinate for atom H1	 TIP3:3002	  WF
+Warning: poorly guessed coordinate for atom H2	 TIP3:3002	  WF
+Warning: poorly guessed coordinate for atom H1	 TIP3:3004	  WF
+Warning: poorly guessed coordinate for atom H2	 TIP3:3004	  WF
+Warning: poorly guessed coordinate for atom H1	 TIP3:3007	  WF
+Warning: poorly guessed coordinate for atom H2	 TIP3:3007	  WF
+Info: writing pdb file kcsav.pdb
+Info: Atoms with guessed coordinates will have occupancy of 0.0.
+Info: pdb file complete.
+Info: writing psf file kcsav.psf
+total of 7713 atoms
+total of 7314 bonds
+total of 11951 angles
+total of 16756 dihedrals
+total of 948 impropers
+total of 404 cross-terms
+Info: psf file complete.
+A:22 
+A:124 
+A:71 
+B:22 
+B:124 
+B:71 
+C:22 
+C:124 
+C:71 
+D:22 
+D:124 
+D:71 
+Info) VMD for MACOSXX86, version 1.8.6 (April 6, 2007)
+Info) Exiting normally.
+vmd > 
